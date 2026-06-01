@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="AllergieScan Icon">
+  <defs>
+    <linearGradient id="bgAS" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fafafa"/>
+      <stop offset="100%" stop-color="#f1f1f1"/>
+    </linearGradient>
+    <linearGradient id="roseAS" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#E11D48"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgAS)"/>
+
+  <!-- Barcode lines -->
+  <rect x="96"  y="148" width="14" height="188" rx="5" fill="url(#roseAS)"/>
+  <rect x="120" y="148" width="7"  height="188" rx="3" fill="url(#roseAS)"/>
+  <rect x="136" y="148" width="20" height="188" rx="5" fill="url(#roseAS)"/>
+  <rect x="166" y="148" width="10" height="188" rx="3" fill="url(#roseAS)"/>
+  <rect x="186" y="148" width="16" height="188" rx="5" fill="url(#roseAS)"/>
+  <rect x="212" y="148" width="7"  height="188" rx="3" fill="url(#roseAS)"/>
+  <rect x="229" y="148" width="14" height="188" rx="5" fill="url(#roseAS)"/>
+  <rect x="253" y="148" width="20" height="188" rx="5" fill="url(#roseAS)"/>
+  <rect x="283" y="148" width="9"  height="188" rx="3" fill="url(#roseAS)"/>
+  <rect x="302" y="148" width="16" height="188" rx="5" fill="url(#roseAS)"/>
+  <rect x="328" y="148" width="7"  height="188" rx="3" fill="url(#roseAS)"/>
+  <rect x="345" y="148" width="20" height="188" rx="5" fill="url(#roseAS)"/>
+  <rect x="375" y="148" width="12" height="188" rx="4" fill="url(#roseAS)"/>
+  <rect x="397" y="148" width="17" height="188" rx="5" fill="url(#roseAS)"/>
+
+  <!-- Scan line -->
+  <rect x="80" y="234" width="350" height="6" rx="3" fill="#E11D48" opacity="0.28"/>
+
+  <!-- Traffic light indicators -->
+  <circle cx="166" cy="400" r="30" fill="#16A34A"/>
+  <circle cx="256" cy="400" r="30" fill="#D97706"/>
+  <circle cx="346" cy="400" r="30" fill="#DC2626"/>
+</svg>
